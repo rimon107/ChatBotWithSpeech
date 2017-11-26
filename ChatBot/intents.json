@@ -1,0 +1,42 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day" ],
+      "responses": [ "Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?" ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye" ],
+      "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon." ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+    },
+    
+    {
+      "tag": "rental",
+      "patterns": [ "Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
+      "responses": [ "Are you looking to rent today or later this week?" ],
+      "context_set": "rentalday"
+    },
+    
+    {
+      "tag": "Who",
+      "patterns": [ "Who am i?" ],
+      "responses": [ "you are employee of ACI. What is your staff ID?" ]
+
+    },
+
+    {
+      "tag": "MIS 0025",
+      "patterns": [ "Kabir","Akash","Rimon" ],
+      "responses": [ "Pakna","Akash - 001","Rimon-002" ]
+
+    }
+  ]
+}
+
