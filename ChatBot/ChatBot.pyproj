@@ -25,6 +25,12 @@
     <Compile Include="Conversation.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="TestChatBot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TrainChatBot.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="intents.json" />
